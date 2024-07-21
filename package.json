@@ -1,0 +1,17 @@
+{
+  "name": "tokenvm-proof-of-work-faucet",
+  "version": "1.0.0",
+  "description": "The main code is copied from the [challenge package of the TokenVM example in the MorpheusVM repo](https://github.com/ava-labs/hypersdk/tree/main/examples/tokenvm/challenge). All rights are reserved by the original code owners.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx -y rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-wasm": "^6.2.2"
+  },
+  "type": "module"
+}
